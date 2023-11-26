@@ -23,6 +23,7 @@ public class CommonAction {
                 case "win_chrome":
                     System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
                     driver = new ChromeDriver();
+                    break;
                 default:
                     Assert.fail("Incorrect platform or browser name"+PLATFORM_AND_BROWSER);
             }
