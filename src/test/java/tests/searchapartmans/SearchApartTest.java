@@ -7,6 +7,7 @@ public class SearchApartTest extends BaseTest {
 
     public void checkIsRederectToListing(){
         basePage.open("https://realt.by/");
+        //switchWindow();
         realtHomePage
                 .enterCountRooms()
                 .clickToFind();
