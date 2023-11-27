@@ -14,6 +14,7 @@ public class RealtListingPage extends BasePage {
 
     public RealtListingPage checkCountCards(){
         waitElementIsVisible(driver.findElement(card));
+
         int countCard = driver.findElements(card).size();
         Assert.assertEquals(countCard,20);
         return this;

@@ -2,7 +2,7 @@ package tests.searchapartmans;
 
 import org.testng.annotations.Test;
 import tests.basetest.BaseTest;
-@Test
+@Test(invocationCount = 2)//коол выполнений
 public class SearchApartTest extends BaseTest {
 
     public void checkIsRederectToListing(){
